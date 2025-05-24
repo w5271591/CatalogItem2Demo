@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 09:25:34</sys_created_on>
+        <sys_id>e2a5ed3f83ed221016455a55eeaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1758036_catalogi_ProcessBar.access_analyzer_admin</sys_name>
+        <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
+        <sys_security_acl display_value="x_1758036_catalogi_ProcessBar">e6a529fb83ed221016455a55eeaad3a3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e2a5ed3f83ed221016455a55eeaad341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 09:25:34</sys_updated_on>
+        <sys_user_role display_value="access_analyzer_admin" name="access_analyzer_admin">cc0f1ea25323021052c0ddeeff7b1268</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
