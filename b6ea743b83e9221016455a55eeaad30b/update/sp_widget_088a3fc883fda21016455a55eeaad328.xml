@@ -43,7 +43,6 @@
   text-align: center;
   position: relative;
   cursor: pointer;
-  border-right: 1px solid #ccc;
 }
 
 .step.active {
@@ -86,14 +85,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-24 14:54:19</sys_created_on>
         <sys_id>088a3fc883fda21016455a55eeaad328</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>StepNavigatorWidget</sys_name>
         <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
         <sys_policy/>
         <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
         <sys_update_name>sp_widget_088a3fc883fda21016455a55eeaad328</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-25 09:39:50</sys_updated_on>
+        <sys_updated_on>2025-05-25 14:13:30</sys_updated_on>
         <template><![CDATA[<div class="stepper-container">
   <div class="step-arrow home">
     <i class="fa fa-home"></i>
