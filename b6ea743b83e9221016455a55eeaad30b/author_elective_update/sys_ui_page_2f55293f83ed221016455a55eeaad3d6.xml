@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1758036_catalogi_ProcessBar.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div style="display: flex; font-family: Arial; font-size: 14px; border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
+  <div style="padding: 10px 16px; background: #f9f9f9; border-right: 1px solid #ccc; font-weight: bold;">]]>🏠<![CDATA[</div>
+  <div style="position: relative; flex: 1; padding: 10px; background: white; border-right: 1px solid #ccc; text-align: center;">
+    Step1
+    <div style="position: absolute; right: -15px; top: 0; width: 0; height: 0; border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-left: 15px solid #ccc;"></div>
+  </div>
+  <div style="position: relative; flex: 1; padding: 10px; background: white; border-right: 1px solid #ccc; text-align: center;">
+    Step2
+    <div style="position: absolute; right: -15px; top: 0; width: 0; height: 0; border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-left: 15px solid #ccc;"></div>
+  </div>
+  <div style="position: relative; flex: 1; padding: 10px; background: white; border-right: 1px solid #ccc; text-align: center;">
+    Step3
+    <div style="position: absolute; right: -15px; top: 0; width: 0; height: 0; border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-left: 15px solid #ccc;"></div>
+  </div>
+  <div style="position: relative; flex: 1; padding: 10px; background: white; border-right: 1px solid #ccc; text-align: center;">
+    Step4
+    <div style="position: absolute; right: -15px; top: 0; width: 0; height: 0; border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-left: 15px solid #ccc;"></div>
+  </div>
+  <div style="position: relative; flex: 1; padding: 10px; background: #1E40AF; color: white; text-align: center; font-weight: bold;">
+    Step5
+  </div>
+</div>
+</j:jelly>]]></html>
+        <name>ProcessBar</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 09:25:34</sys_created_on>
+        <sys_id>2f55293f83ed221016455a55eeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ProcessBar</sys_name>
+        <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
+        <sys_update_name>sys_ui_page_2f55293f83ed221016455a55eeaad3d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 09:25:34</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</application>
+        <file_path/>
+        <instance_id>7420b230db16bd9802022a591396199e</instance_id>
+        <instance_name>dev200623</instance_name>
+        <name>sys_ui_page_2f55293f83ed221016455a55eeaad3d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1758036_catalogi_ProcessBar.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;div style="display: flex; font-family: Arial; font-size: 14px; border: 1px solid #ccc; border-radius: 6px; overflow: hidden;"&gt;
+  &lt;div style="padding: 10px 16px; background: #f9f9f9; border-right: 1px solid #ccc; font-weight: bold;"&gt;]]&gt;🏠&lt;![CDATA[&lt;/div&gt;
+  &lt;div style="position: relative; flex: 1; padding: 10px; background: white; border-right: 1px solid #ccc; text-align: center;"&gt;
+    Step1
+    &lt;div style="position: absolute; right: -15px; top: 0; width: 0; height: 0; border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-left: 15px solid #ccc;"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style="position: relative; flex: 1; padding: 10px; background: white; border-right: 1px solid #ccc; text-align: center;"&gt;
+    Step2
+    &lt;div style="position: absolute; right: -15px; top: 0; width: 0; height: 0; border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-left: 15px solid #ccc;"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style="position: relative; flex: 1; padding: 10px; background: white; border-right: 1px solid #ccc; text-align: center;"&gt;
+    Step3
+    &lt;div style="position: absolute; right: -15px; top: 0; width: 0; height: 0; border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-left: 15px solid #ccc;"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style="position: relative; flex: 1; padding: 10px; background: white; border-right: 1px solid #ccc; text-align: center;"&gt;
+    Step4
+    &lt;div style="position: absolute; right: -15px; top: 0; width: 0; height: 0; border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-left: 15px solid #ccc;"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style="position: relative; flex: 1; padding: 10px; background: #1E40AF; color: white; text-align: center; font-weight: bold;"&gt;
+    Step5
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;ProcessBar&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-23 09:25:34&lt;/sys_created_on&gt;&lt;sys_id&gt;2f55293f83ed221016455a55eeaad3d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;ProcessBar&lt;/sys_name&gt;&lt;sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi"&gt;b6ea743b83e9221016455a55eeaad30b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CatalogItem2Demo"&gt;b6ea743b83e9221016455a55eeaad30b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_2f55293f83ed221016455a55eeaad3d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-23 09:25:34&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-715148781</payload_hash>
+        <record_name>ProcessBar</record_name>
+        <reverted_from/>
+        <source>956bfc73832d221016455a55eeaad35c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-23 09:25:34</sys_created_on>
+        <sys_id>2ea5ed3f83ed221016455a55eeaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196fc7651600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-23 09:25:34</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>22a5ed3f7eed2210e44fe28df8537647</update_guid>
+        <update_guid_history>22a5ed3f7eed2210e44fe28df8537647:-715148781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 12:07:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>09d8a07f8bf04f6f80864facc7750779</sys_id>
+        <sys_metadata>2f55293f83ed221016455a55eeaad3d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ProcessBar</sys_name>
+        <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
+        <sys_scope_delete display_value="">05320a1a07ff43a9b3e289f0a0ad4c99</sys_scope_delete>
+        <sys_update_name>sys_ui_page_2f55293f83ed221016455a55eeaad3d6</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_2f55293f83ed221016455a55eeaad3d6">2ea5ed3f83ed221016455a55eeaad347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 12:07:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

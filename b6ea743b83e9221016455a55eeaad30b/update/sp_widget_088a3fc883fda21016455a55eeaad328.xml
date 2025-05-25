@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function StepNavigatorWidgetController($scope) {
+  $scope.currentStep = 1;
+
+  $scope.setStep = function(step) {
+    $scope.currentStep = step;
+
+    if (typeof g_form !== 'undefined') {
+      g_form.setValue("current_step", step);
+    } else {
+      console.warn('g_form is not available in this context');
+    }
+  };
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.stepper-container {
+  display: flex;
+  font-family: Arial;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.step-arrow.home {
+  background: white;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #ccc;
+}
+
+.step {
+  flex: 1;
+  padding: 10px;
+  background: white;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border-right: 1px solid #ccc;
+}
+
+.step.active {
+  background-color: #1E40AF;
+  color: white;
+}
+
+.step:not(.last)::after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 12px solid white;
+  z-index: 1;
+}
+
+.step.active:not(.last)::after {
+  border-left-color: #1E40AF;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>stepnavigatorwidget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>StepNavigatorWidget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 14:54:19</sys_created_on>
+        <sys_id>088a3fc883fda21016455a55eeaad328</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>StepNavigatorWidget</sys_name>
+        <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
+        <sys_update_name>sp_widget_088a3fc883fda21016455a55eeaad328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 17:04:57</sys_updated_on>
+        <template><![CDATA[<div class="stepper-container">
+  <div class="step-arrow home">
+    <i class="fa fa-home"></i>
+  </div>
+  <div class="step" ng-class="{active: currentStep === 1}" ng-click="setStep(1)">
+    Step1
+  </div>
+  <div class="step" ng-class="{active: currentStep === 2}" ng-click="setStep(2)">
+    Step2
+  </div>
+  <div class="step" ng-class="{active: currentStep === 3}" ng-click="setStep(3)">
+    Step3
+  </div>
+  <div class="step" ng-class="{active: currentStep === 4}" ng-click="setStep(4)">
+    Step4
+  </div>
+  <div class="step last" ng-class="{active: currentStep === 5}" ng-click="setStep(5)">
+    Step5
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>088a3fc883fda21016455a55eeaad328</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 14:54:19</sys_created_on>
+        <sys_id>848a3fc883fda21016455a55eeaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 14:54:19</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
