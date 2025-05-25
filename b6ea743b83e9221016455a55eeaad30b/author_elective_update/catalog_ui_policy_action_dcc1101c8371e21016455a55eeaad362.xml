@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request A Multiple Sections">8c2881f3836d221016455a55eeaad360</catalog_item>
+        <catalog_variable>IO:d3d515b783ad221016455a55eeaad32f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>700</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 16:36:04</sys_created_on>
+        <sys_id>dcc1101c8371e21016455a55eeaad362</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>step_2</sys_name>
+        <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_dcc1101c8371e21016455a55eeaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 16:43:53</sys_updated_on>
+        <table/>
+        <ui_policy display_value="step2">eecf80588371e21016455a55eeaad322</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>step_2</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=dcc1101c8371e21016455a55eeaad362"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</application>
+        <file_path/>
+        <instance_id>7420b230db16bd9802022a591396199e</instance_id>
+        <instance_name>dev200623</instance_name>
+        <name>catalog_ui_policy_action_dcc1101c8371e21016455a55eeaad362</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request A Multiple Sections">8c2881f3836d221016455a55eeaad360</catalog_item><catalog_variable>IO:d3d515b783ad221016455a55eeaad32f</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>700</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-24 16:36:04</sys_created_on><sys_id>dcc1101c8371e21016455a55eeaad362</sys_id><sys_mod_count>3</sys_mod_count><sys_name>step_2</sys_name><sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package><sys_policy/><sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope><sys_update_name>catalog_ui_policy_action_dcc1101c8371e21016455a55eeaad362</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-24 16:43:53</sys_updated_on><table/><ui_policy display_value="step2">eecf80588371e21016455a55eeaad322</ui_policy><value/><value_action>ignore</value_action><variable>step_2</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=dcc1101c8371e21016455a55eeaad362"/></record_update>]]></payload>
+        <payload_hash>-1347832354</payload_hash>
+        <record_name>step_2</record_name>
+        <reverted_from/>
+        <source>aa9610d083b1e21016455a55eeaad334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 16:57:08</sys_created_on>
+        <sys_id>cb9610d083b1e21016455a55eeaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197033a182f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 16:57:08</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>cf9610d048b1e210db06ff2e60724ccf</update_guid>
+        <update_guid_history>cf9610d048b1e210db06ff2e60724ccf:-1347832354,839610d0e7b1e21010669bed2f620fc0:-1052290129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="step_2">7e6b77148335261016455a55eeaad31e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 09:36:49</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>346e467952c842a395d5ccc236764199</sys_id>
+        <sys_metadata>dcc1101c8371e21016455a55eeaad362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>step_2</sys_name>
+        <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
+        <sys_scope_delete display_value="">05320a1a07ff43a9b3e289f0a0ad4c99</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_dcc1101c8371e21016455a55eeaad362</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_dcc1101c8371e21016455a55eeaad362">cb9610d083b1e21016455a55eeaad3d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 09:36:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

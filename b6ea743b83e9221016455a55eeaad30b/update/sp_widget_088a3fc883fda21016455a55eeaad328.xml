@@ -7,11 +7,13 @@
   $scope.setStep = function(step) {
     $scope.currentStep = step;
 
-    if (typeof g_form !== 'undefined') {
-      g_form.setValue("current_step", step);
-    } else {
-      console.warn('g_form is not available in this context');
-    }
+    var allSteps = ['step_1', 'step_2', 'step_3', 'step_4', 'step_5'];
+    allSteps.forEach(function(container) {
+        $scope.page.g_form.setDisplay(container, false);
+    });
+
+    var target = 'step_' + step;
+    $scope.page.g_form.setDisplay(target, true);		
   };
 }
 ]]></client_script>
@@ -84,14 +86,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-24 14:54:19</sys_created_on>
         <sys_id>088a3fc883fda21016455a55eeaad328</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>StepNavigatorWidget</sys_name>
         <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
         <sys_policy/>
         <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
         <sys_update_name>sp_widget_088a3fc883fda21016455a55eeaad328</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-24 17:04:57</sys_updated_on>
+        <sys_updated_on>2025-05-25 09:39:50</sys_updated_on>
         <template><![CDATA[<div class="stepper-container">
   <div class="step-arrow home">
     <i class="fa fa-home"></i>

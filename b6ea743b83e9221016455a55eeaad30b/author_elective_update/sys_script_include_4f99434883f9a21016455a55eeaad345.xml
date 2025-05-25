@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1758036_catalogi.GetStepHtml</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetStepHtml</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetStepHtml = Class.create();
+GetStepHtml.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getStepHtml: function() {
+      
+                        var html = `
+<div id="stepNav" style="display: flex; font-family: Arial; font-size: 14px; border: 1px solid #ccc; border-radius: 6px; overflow: hidden;">
+  ${[1, 2, 3, 4, 5].map(function (n) {
+    return `
+      <div class="step-button" data-step="${n}" id="step-${n}" 
+           style="flex: 1; padding: 10px; text-align: center; cursor: pointer; border-right: 1px solid #ccc; background: white;">
+        Step${n}
+      </div>`;
+  }).join('')}
+</div>
+        `;
+        return html;
+    },
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 11:21:12</sys_created_on>
+        <sys_id>4f99434883f9a21016455a55eeaad345</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>GetStepHtml</sys_name>
+        <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
+        <sys_update_name>sys_script_include_4f99434883f9a21016455a55eeaad345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 17:06:46</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</application>
+        <file_path/>
+        <instance_id>7420b230db16bd9802022a591396199e</instance_id>
+        <instance_name>dev200623</instance_name>
+        <name>sys_script_include_4f99434883f9a21016455a55eeaad345</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1758036_catalogi.GetStepHtml&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;GetStepHtml&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var GetStepHtml = Class.create();
+GetStepHtml.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getStepHtml: function() {
+      
+                        var html = `
+&lt;div id="stepNav" style="display: flex; font-family: Arial; font-size: 14px; border: 1px solid #ccc; border-radius: 6px; overflow: hidden;"&gt;
+  ${[1, 2, 3, 4, 5].map(function (n) {
+    return `
+      &lt;div class="step-button" data-step="${n}" id="step-${n}" 
+           style="flex: 1; padding: 10px; text-align: center; cursor: pointer; border-right: 1px solid #ccc; background: white;"&gt;
+        Step${n}
+      &lt;/div&gt;`;
+  }).join('')}
+&lt;/div&gt;
+        `;
+        return html;
+    },
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-24 11:21:12&lt;/sys_created_on&gt;&lt;sys_id&gt;4f99434883f9a21016455a55eeaad345&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetStepHtml&lt;/sys_name&gt;&lt;sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi"&gt;b6ea743b83e9221016455a55eeaad30b&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="CatalogItem2Demo"&gt;b6ea743b83e9221016455a55eeaad30b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4f99434883f9a21016455a55eeaad345&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-24 17:06:46&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1017448627</payload_hash>
+        <record_name>GetStepHtml</record_name>
+        <reverted_from/>
+        <source>956bfc73832d221016455a55eeaad35c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-24 17:06:47</sys_created_on>
+        <sys_id>94d81c5483b1e21016455a55eeaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1970342ec570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-24 17:06:47</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>1cd81c546bb1e210159a0f32d493ba09</update_guid>
+        <update_guid_history>1cd81c546bb1e210159a0f32d493ba09:-1017448627,738c67486fbda2105d5d134489320a3e:-335206036,ca7ba7c0dfbda210c9ac5ec8b452689f:-1040732117,e8e12b88fe7da210ccd4fd184d0250b5:1420300537,10412b08c87da21034bcbe73f4e669b0:1891834347,eefe9384737da210bebd980025718727:1420300537,54bc57c05b7da21082b7292fd6a36a53:51231611,6d4a574cc93da21041bf020b6062765f:652184982,46839784273da2101d7b3bf752c16de8:-1532567854,9461d74c24f9a210c909eb74cd032aea:456960008,f7cc874c17f9a2106dba6cafb3ce992a:-1484403318,e68c874c5df9a2101191235d20831321:1274407625,12b90f08ccf9a210a10aed0d6ae17dd8:-229611350</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-25 09:38:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>30bb9f88a3d2493a933358244fa5ff24</sys_id>
+        <sys_metadata>4f99434883f9a21016455a55eeaad345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetStepHtml</sys_name>
+        <sys_package display_value="CatalogItem2Demo" source="x_1758036_catalogi">b6ea743b83e9221016455a55eeaad30b</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CatalogItem2Demo">b6ea743b83e9221016455a55eeaad30b</sys_scope>
+        <sys_scope_delete display_value="">05320a1a07ff43a9b3e289f0a0ad4c99</sys_scope_delete>
+        <sys_update_name>sys_script_include_4f99434883f9a21016455a55eeaad345</sys_update_name>
+        <sys_update_version display_value="sys_script_include_4f99434883f9a21016455a55eeaad345">94d81c5483b1e21016455a55eeaad30a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-25 09:38:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
